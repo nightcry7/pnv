@@ -1,8 +1,9 @@
-pnv
-===
+pnv-js
+========
 
 A small pocket-sized jQuery form validation plugin.
 
 Demo
-===
-http://cdpn.io/mzCIt
+----------------------------
+
+[Demo](http://cdpn.io/mzCIt)
