@@ -18,14 +18,14 @@ Documentation
    	&lt;script src="pnv.js"&gt;&lt;/script&gt;
 </pre>
 
-To use simple bind the plugin to your form.
+### To use simple bind the plugin to your form.
 <pre>
     $(function() {
         $('FORMSELCTOR').pnv();
     });
 </pre>
 
-PNV.js also allows for custom error and success functions which can be defined like so:
+### PNV.js also allows for custom error and success functions which can be defined like so:
 <pre>
  $(function() {
     var error = function($this){
