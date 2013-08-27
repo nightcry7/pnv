@@ -29,7 +29,7 @@ Documentation
 <pre>
  $(function() {
     var error = function($this){
-      ;$this.css('border-color','orange');
+      $this.css('border-color','orange');
     }
     var success = function($this){
       $this.css('border-color','blue');
