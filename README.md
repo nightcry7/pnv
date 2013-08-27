@@ -6,7 +6,7 @@ A small pocket-sized jQuery form validation plugin.
 Demo
 ----------------------------
 
-[Demo](http://cdpn.io/mzCIt)
+[Link to Demo](http://cdpn.io/mzCIt)
 
 
 Documentation
