@@ -1,14 +1,3 @@
-$(function() {
-  var error = function($this){
-    $this.css('border-color','orange');
-  }
-  var success = function($this){
-    $this.css('border-color','blue');
-  }
-  $('#formone').que({error:error,success:success});
-});
-
-
 (function($){
     $.fn.que = function(options){
       var error = function($this){
