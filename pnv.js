@@ -1,5 +1,5 @@
 (function($){
-    $.fn.que = function(options){
+    $.fn.pnv = function(options){
       var error = function($this){
     $this.css('border-color','red');
   }
