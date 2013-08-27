@@ -20,7 +20,6 @@
         
         $(this).parents('fieldset').children('input:not([data-val="skip"], .next),select:not([data-val="skip"] ,.next)').each(function(){
           var a = '[name='+$(this).attr('name')+']';
-          console.log(a);
           a = $(a); 
          normVal(a);
         });
