@@ -28,12 +28,12 @@ Documentation
 ### PNV.js also allows for custom error and success functions which can be defined like so:
 <pre>
  $(function() {
-    var error = function($this){
+    var customError = function($this){
       $this.css('border-color','orange');
     }
-    var success = function($this){
+    var customSuccess = function($this){
       $this.css('border-color','blue');
     }
-   $('FORMSELECTOR').pnv({error:error,success:success});
+   $('FORMSELECTOR').pnv({error:customError,success:customSuccess});
   });
 </pre>
